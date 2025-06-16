@@ -65,12 +65,7 @@ void start_up()
         if(current==10){
         	gotoxy(0,20);
         	printBlank(44);
-        	printf("此程序由绳金塔小组精心制作");
-		}
-        else if(current==45){
-        	gotoxy(0,22); 
-        	printBlank(43);
-        	printf("制作人员：刘世仁 胡峻铭 冯鑫");
+        	printf("此程序由小组精心制作");
 		}
         fflush(stdout);
     }
